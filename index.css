@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.6) url(IMG-20220808-WA0008.jpg) center fixed;
+background-size: cover;
+background-blend-mode: darken;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header h1{
+    color: seashell;
+    font-size: 50px;
+}
+header span{
+    color: orange;
+}
+nav ul li {
+    display: inline-block;
+    padding: 40px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.res{
+    background-color: orangered;
+    
+}
+nav ul li a:hover{
+    font-size: 30px;
+    background:yellow;
+    color: red;
+    transition: 3.5c;
+
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: white;
+}
+main h2{
+    margin-left: 20px;
+    text-align: center;
+
+}
+main h1{
+    text-align: center;
+}
+.search{
+    position: absolute;
+    top: 65%;
+    left: 55%;
+
+}
+input{
+    width: 300px;
+    padding: 15px;
+    border-radius: 50px;
+}
+button{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: orange;
+    border-radius: 120px;
+
+}

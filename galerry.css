@@ -1,0 +1,50 @@
+body{
+    background-image: url(f.jpg);
+    background-size: cover;
+    
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: maroon;
+
+}
+header h1{
+    color: seashell;
+    font-size: 50px;
+}
+header span{
+    color: orange;
+}
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.res{
+    background-color: orangered;
+    
+}
+nav ul li a:hover{
+    font-size: 30px;
+    background:yellow;
+    color: red;
+    transition: 3.5c;
+
+}
+P{
+    background-color: paleturquoise;
+    border: 12px solid red;
+    border-radius: 120px;
+    padding: 12px;
+
+}
